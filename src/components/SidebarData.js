@@ -7,7 +7,7 @@ export const SidebarData = [
   {
     title: "post requirements",
     path: "/",
-    icon: <AiIcons.AiFillHome />,
+    icon: <AiIcons.AiOutlineBell />,
     cName: "nav-text",
   },
   {
@@ -43,13 +43,13 @@ export const SidebarData = [
   {
     title: "Pricing",
     path: "/support",
-    icon: <IoIcons.IoMdHelpCircle />,
+    icon: <AiIcons.AiFillTag />,
     cName: "nav-text",
   },
   {
     title: "LOGIN/SIGN UP",
     path: "/support",
-    icon: <IoIcons.IoMdHelpCircle />,
+    icon: <AiIcons.AiOutlineLogin />,
     cName: "nav-text",
   },
 ];
