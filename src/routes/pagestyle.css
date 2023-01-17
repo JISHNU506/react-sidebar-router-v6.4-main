@@ -1,0 +1,593 @@
+.home{
+  padding-top: 80px;
+}
+
+.home .inline{
+    height: 100px;
+    width: 100%;
+    background-color: #012b72;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.home .inline::-webkit-scrollbar{ 
+    
+    display: none;
+}
+.home .inline .content{
+   
+    margin: auto;
+    width: 80%;
+    display: flex;
+}
+.home .inline1{
+    height: 100px;
+    width: 100%;
+    background-color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 13px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.home .inline1::-webkit-scrollbar{ 
+    
+    display: none;
+}
+.home .inline1 .content1{
+   
+    margin: auto;
+    width: 100%;
+
+
+    display: flex;
+}
+
+.home .inline .content .content-item{
+float: left;
+/* background-color: red; */
+margin-left: 35px;
+color: #ffff;
+margin: auto;
+padding-top: 10px;
+
+
+}
+
+.home .inline1 .content1 .content-item1{
+  
+    /* background-color: red; */
+    margin-left: 10px;
+    color: #000;
+    /* margin: auto; */
+ 
+    padding-top: 10px;
+    width: 9rem;
+    
+
+    }
+.home .inline .content .content-item img{
+    width: 30px;
+    height: 30px;
+    margin-left: 27px;
+  
+
+}
+.home .inline1 .content1 .content-item1 img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+  
+
+}
+.dropdown, .dropup {
+    position: unset;
+}
+.home .inline .content .content-item .items{
+    display: grid;
+    text-align: start;
+    font-size: 12px;
+    width: 200px;
+
+}
+.home .inline1 .content1 .content-item1 .items1 {
+    display: grid;
+    text-align: start;
+    font-size: 12px;
+    width: 200px;
+   
+}
+.home .banner{
+    width: 100%;
+    height: 90vh;
+    padding-top: 4rem;
+padding-left: 7%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://www.trailsofindochina.com/wp-content/uploads/2019/07/malaysia-hero-shot.jpg);
+}
+
+
+
+.home .banner .search {
+  padding: 20px 2rem;
+  width: 400px;
+  padding-bottom: 4rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1rem;
+}
+.home .banner .search p{
+    font-size: 2rem;
+    font-weight: 900;
+    color: #000;
+}
+.home .banner .search .dropdown{
+    margin-top: 20px;
+  
+}
+.btn-secondary {
+    color: #171616;
+    background-color: #ffffff;
+    border-color: #6c757d;
+    width: 100%;
+    text-align: start;
+    height: 3rem;
+}
+.dropdown-toggle::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 7.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+.btn-primary {
+    color: #fff;
+    width: 100%;
+    background-color: rgb(1, 43, 114);
+    border-color: #007bff;
+    margin-top: 1rem;
+    height: 3rem;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 19.5rem;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0.25rem;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .home .banner .search {
+        padding: 20px 2rem;
+    
+    width: 300px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 1rem;
+      
+    }
+     .home .banner .search p{
+         font-size: 1.5rem;
+        
+     }
+
+   }
+.row {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 24px;
+}
+
+.column1 {
+    float: left;
+    width: 69%;
+    padding: 10px;
+    
+margin: 0.5%;
+    height: 60vh; /* Should be removed. Only for demonstration */
+
+    background-image: url(https://xenticebucket21.s3.ap-south-1.amazonaws.com/adv/T8KFRAQZrEa0ptImqcxSlURKmEMp2rzggcARfhoD.png);
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+    box-shadow: 0 0 5px 2px rgb(0 0 0 / 49%);
+    -webkit-box-shadow: 0 0 5px 2px rgb(0 0 0 / 49%);
+    -moz-box-shadow: 0 0 5px 2px rgba(0,0,0,.49);
+}
+.column2 {
+    float: left;
+    width: 29%;
+    margin: 0.5%;
+    padding: 10px;
+    height: 60vh; /* Should be removed. Only for demonstration */
+    background-image: url(https://xenticebucket21.s3.ap-south-1.amazonaws.com/adv/M2dhebuxJ100xVTDB0sKwbvlQYyG9POXRyEYz9rk.png);
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+    box-shadow: 0 0 5px 2px rgb(0 0 0 / 49%);
+    -webkit-box-shadow: 0 0 5px 2px rgb(0 0 0 / 49%);
+    -moz-box-shadow: 0 0 5px 2px rgba(0,0,0,.49);
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 900px) {
+    .column1 {
+        width: 100%;
+        height: 28vh;
+
+    }
+    .column2 {
+        width: 100%;
+        height: 28vh;
+    }
+}
+
+
+
+.mainitem{
+    width: 100%;
+    height: 450px;
+    /* background-color: red; */
+  padding: 5px 2rem;
+  overflow-x: scroll;
+overflow-y: hidden;
+
+ 
+
+}
+.mainitem::-webkit-scrollbar{ 
+    
+  display: none;
+}
+
+.mainitem1{
+  width: 100%;
+  height: 380px;
+
+/* padding: 5px 2rem; */
+display: flex;
+
+overflow-x: scroll;
+overflow-y: hidden;
+
+
+}
+.mainitem1::-webkit-scrollbar{ 
+    
+  display: none;
+}
+
+
+.mainitem .headerpart{
+  padding: 20px 29px;
+  width: 100%;
+  height: 65px;
+  display: flex;
+ 
+}
+.mainitem .headerpart img{
+  margin-right: 2rem;
+  color: black;
+  width: 35px;
+  height: 35px;
+}
+.mainitem .headerpart  h1{
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+
+
+:root{
+  --white:#FFF;
+  --black:#000;
+  --dark:#1E1E1E;
+  --gray:rgba(1,1,1,0.6);
+  --lite:rgba(255,255,255,0.6);
+  --primary: #012b72;
+  --secondary:#fdc632;
+}
+
+
+/***************************
+          DEFAULT
+****************************/
+
+a{
+  text-decoration:none !important;
+  min-width: fit-content;
+  width: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+}
+
+a, button{
+  transition:0.5s;
+}
+
+a, p{
+  font-size:14px;
+}
+
+h1, h2, h3, h4, h5, h6{
+  color:var(--primary);
+  font-weight:600;
+}
+
+a, button, input, textarea, select{
+  outline:none !important;
+}
+
+fieldset{
+  border:0;
+}
+
+.title{
+  color:var(--primary);
+}
+
+.flex, .fixed_flex{
+  display:flex;
+}
+
+.flex-content{
+  width:100%;
+  position:relative;
+}
+
+.padding_1x{
+  padding:1rem;
+}
+
+.padding_2x{
+  padding:2rem;
+}
+
+.padding_3x{
+  padding:3rem;
+}
+
+.padding_4x{
+  padding:4rem;
+}
+
+.btn{
+  padding:0.8rem 2rem;
+  border-radius:5px;
+  text-align:center;
+  font-weight:500;
+  text-transform:uppercase;
+}
+#dropdownMenuButton{
+  text-align: start;
+}
+
+.btn_1{
+  border:1px solid var(--primary);
+  background-color: #012b72;
+  color:var(--secondary);
+}
+
+.btn_1:hover{
+  background-color:transparent;
+  color:var(--primary);
+}
+
+.btn_2{
+  border:1px solid var(--secondary);
+  background-color:var(--secondary);
+  color:var(--primary);
+}
+
+.btn_2:hover{
+  border:1px solid var(--primary);
+  background-color:var(--primary);
+  color:var(--secondary);
+}
+
+@media (max-width:920px){
+  .flex{
+      flex-wrap:wrap;
+  }
+  
+  .padding_1x, .padding_2x, .padding_3x, .padding_4x{
+      padding:1rem;
+  }
+
+  .btn{
+      padding:0.5rem 1rem;
+  }
+  
+  a, p{
+      font-size:12px;
+  }
+}
+
+
+
+/***************************
+             FOOTER
+****************************/
+footer{
+  background-color:var(--primary);
+  color:var(--lite);
+}
+
+footer h3{
+  color:var(--white);
+  margin-bottom:1.5rem;
+}
+
+footer a{
+  color:var(--lite);
+  display:block;
+  margin:15px 0;
+}
+
+footer a:hover{
+  color:var(--white);
+}
+
+footer fieldset{
+  padding:0;
+}
+
+footer fieldset input{
+  background-color:#334f6c;
+  border:0;
+  color:var(--lite);
+  padding:1rem;
+}
+
+footer fieldset .btn{
+  border-radius:0;
+  border:0;
+}
+
+footer fieldset .btn_2:hover{
+  background-color:var(--secondary);
+  border:0;
+  color:var(--primary);
+}
+
+footer .flex:last-child{
+  align-items:center;
+}
+
+footer .flex:last-child .flex-content:last-child{
+  text-align:right;
+}
+
+footer .flex:last-child p{
+  color:var(--white);
+}
+
+footer .flex:last-child a{
+  width:40px;
+  display:inline-block;
+  background-color:#334f6c;
+  color:var(--white);
+  padding:0.5rem;
+  margin-right:3px;
+  text-align:center;
+}
+
+footer .flex:last-child a:hover{
+  background-color:var(--secondary);
+  color:var(--gray);
+}
+
+@media (max-width:1100px){
+  footer .flex:first-child{
+      flex-wrap:wrap;
+  }
+  
+  footer .flex:first-child .flex-content{
+      flex: 1 1 40%;
+  }
+}
+
+@media (max-width:920px){
+  footer .flex:last-child .flex-content:last-child{
+      text-align:left;
+  }
+}
+
+@media (max-width:320px){
+  footer .flex:first-child .flex-content{
+      flex:1 1 100%;
+  }
+}
+.mainitem .card img{
+  height: 200px;
+  width: 100%;
+}
+
+.mainitem .card {
+  position: relative;
+  float: left;
+  display: flex;
+  flex-direction: column;
+ width:17rem;
+ margin-right: 1rem;
+
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  line-height: 2rem;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0.5rem;
+}
+.mainitem .card-body {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1rem;
+  min-width: 300px;
+}
+.h1, h1 {
+  font-size: 1.5rem;
+  margin-left: -1rem;
+
+}
+
+.card-body .card-text .like .far {
+  text-align: end;
+  font-size: 26px;
+
+}
+.card-text i{
+font-size: 20px;
+margin-right: 10px;
+color: #b9b9b9;
+}
+.card-body .amount{
+  color:red;
+}
+ .explore a{
+  font-size: 18px;
+  text-decoration: underline;
+  margin-left: 42%;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.name{
+
+  width: 90%;
+  display: flex;
+}
+.herader{
+  width: 70%;
+
+  height: auto;
+  font-size: 16px;
+}
