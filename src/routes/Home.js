@@ -150,55 +150,22 @@ function Home() {
         <div className="search">
           <p>Choose from 25,00+</p>
           <p>Spaces for your</p>
-          <p>Business</p>
+          <p>Business</p><br />
           <span>Get inspired and find your perfect place</span>
-          <div class="dropdown">
-            <button
-              class="btn btn-secondary dropdown-toggle"
-              type="button"
-              id="dropdownMenuButton"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-               Comercial Office
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">
-               office
-              </a>
-              <a class="dropdown-item" href="#">
-               commercial building
-              </a>
-              <a class="dropdown-item" href="#">
-               commercial Land
-              </a>
-            </div>
-            <div class="dropdown">
-              <button
-              
-                class="btn btn-secondary dropdown-toggle"
-                type="button"
-                id="dropdownMenuButton"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-             Select City
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">
-           DELHI
-                </a>
-                <a class="dropdown-item" href="#">
-             AGRA
-                </a>
-                <a class="dropdown-item" href="#">
-                 MUMBAI
-                </a>
-              </div>
-            </div>
-          </div>
+         <select>
+          <option value="">Lokking For</option>
+          <option value="">Commercal Office</option>
+          <option value="">Commercal Building</option>
+          <option value="">industrial Office</option>
+          <option value="">Meeting room </option>
+         </select>
+         <select>
+          <option value="">Select the Places</option>
+          <option value="">Mumbi</option>
+          <option value="">Goa</option>
+          <option value="">industrial Office</option>
+          <option value="">Meeting room </option>
+         </select>
           <button type="button" class="btn btn-primary">
             Primary
           </button>
