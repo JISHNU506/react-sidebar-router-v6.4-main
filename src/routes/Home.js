@@ -167,7 +167,7 @@ function Home() {
           <option value="">Meeting room </option>
          </select>
           <button type="button" class="btn btn-primary">
-            Primary
+            Search
           </button>
         </div>
       </div>
