@@ -153,14 +153,14 @@ function Home() {
           <p>Business</p><br />
           <span>Get inspired and find your perfect place</span>
          <select>
-          <option value="">Lokking For</option>
+          <option value="">Looking For</option>
           <option value="">Commercal Office</option>
           <option value="">Commercal Building</option>
           <option value="">industrial Office</option>
           <option value="">Meeting room </option>
          </select>
          <select>
-          <option value="">Select the Places</option>
+          <option value="">Select City</option>
           <option value="">Mumbi</option>
           <option value="">Goa</option>
           <option value="">industrial Office</option>
